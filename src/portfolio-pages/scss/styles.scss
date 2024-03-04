@@ -1,0 +1,17 @@
+@import "./components/header";
+@import "./components/page";
+@import "./components/footer";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 450px;
+    }
+}
