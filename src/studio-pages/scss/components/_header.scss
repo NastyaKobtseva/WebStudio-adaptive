@@ -28,7 +28,7 @@ li {
     align-items: center;
     padding: 26px 0 20px 0;
     display: flex;
-    gap: 100px;
+    gap: 288px;
 }
 
 .navigation__list {
@@ -108,7 +108,7 @@ li {
     display: none;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
     .header__content {
         gap: 40px;
         padding: 26px 0 9px 0;
@@ -201,7 +201,7 @@ li {
       font-weight: 500;
       line-height: 22px;
       letter-spacing: 0.36px;
-    }
+}
     
     /* mobile menu */
     @media (max-width: 480px) {

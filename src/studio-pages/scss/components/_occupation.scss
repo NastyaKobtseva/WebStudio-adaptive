@@ -111,7 +111,13 @@
     opacity: 1;
 }
 
-@media (max-width: 740px) {
+// @media (max-width: 740px) {
+//     .occupation {
+//         display: none;
+//     }
+// }
+
+@media (max-width: 768px) {
     .occupation {
         display: none;
     }

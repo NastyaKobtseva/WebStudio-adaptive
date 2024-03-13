@@ -206,9 +206,9 @@ header {
     
     /* mobile menu */
     @media (max-width: 480px) {
-        .header__content-element {
-            padding: 20px 0 20px 0;
-        }
+      .header__content-element {
+        padding: 20px 0 20px 0;
+      }
       nav {
         order: 1;
       }
