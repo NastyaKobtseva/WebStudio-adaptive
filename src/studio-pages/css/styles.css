@@ -910,16 +910,16 @@ label {
 }
 @media (max-width: 480px) {
   .information__attention-photo {
-    padding: 25px 155px;
+    padding: 25px 142px;
   }
   .information__clock-photo {
-    padding: 25px 155px;
+    padding: 25px 142px;
   }
   .information__planning-photo {
-    padding: 32px 155px;
+    padding: 32px 142px;
   }
   .information__astronaut-photo {
-    padding: 25px 155px;
+    padding: 25px 142px;
   }
 }
 .occupation__title {
@@ -1220,8 +1220,8 @@ label {
 }
 @media (max-width: 480px) {
   .card__photo {
-    height: 320px;
-    width: 330px;
+    height: 264px;
+    width: 274px;
   }
 }
 .customers__title {
@@ -1286,7 +1286,7 @@ label {
 }
 @media (max-width: 480px) {
   .regular__photo-svg {
-    padding: 14px;
+    padding: 8px;
   }
 }
 .newsletter__button, .newsletter, .header__content-top, .address, .address__link, .overlay__content {
@@ -1532,7 +1532,7 @@ label {
 }
 @media (max-width: 480px) {
   .newsletter__form {
-    width: 375px;
+    width: 310px;
     height: 50px;
     margin-bottom: 10px;
   }
