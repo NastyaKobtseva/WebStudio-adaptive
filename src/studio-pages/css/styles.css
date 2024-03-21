@@ -23,9 +23,7 @@ li {
 }
 
 .header__content-element {
-  display: flex;
   align-items: center;
-  justify-content: center;
   display: flex;
   justify-content: center;
 }
@@ -54,8 +52,8 @@ li {
   position: relative;
 }
 .navigation__list-item:hover {
-  color: #2196F3;
-  fill: #2196F3;
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .navigation__list .navigation__list-item .navigation__list-link {
@@ -74,7 +72,7 @@ li {
   position: absolute;
   width: 90%;
   height: 3.6px;
-  background-color: #2196F3;
+  background-color: #2196f3;
   bottom: -20px;
   left: 32px;
   transform: scaleX(0);
@@ -83,7 +81,7 @@ li {
   transition: transform 0.3s ease;
 }
 .navigation__list .navigation__list-item .navigation__list-link:hover, .navigation__list .navigation__list-item .navigation__list-link.active {
-  color: #2196F3;
+  color: #2196f3;
 }
 .navigation__list .navigation__list-item .navigation__list-link:hover::after, .navigation__list .navigation__list-item .navigation__list-link.active::after {
   transform: scaleX(1);
@@ -102,8 +100,8 @@ li {
   transition: color 0.3s;
 }
 .address__link:hover {
-  color: #2196F3;
-  fill: #2196F3;
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .header__burger {
@@ -147,11 +145,11 @@ nav {
   letter-spacing: 0.8px;
 }
 .menu__burger-link:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .menu__link-studio {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .header__form[type=checkbox],
@@ -186,7 +184,7 @@ label {
   text-decoration: none;
   color: rgb(117, 117, 117);
   fill: rgb(117, 117, 117);
-  color: #2196F3;
+  color: #2196f3;
   font-family: "Roboto";
   font-size: 34px;
   font-style: normal;
@@ -201,7 +199,7 @@ label {
 }
 
 .site__link {
-  color: #2196F3;
+  color: #2196f3;
   font-family: "Roboto";
   font-size: 18px;
   font-style: normal;
@@ -320,6 +318,14 @@ label {
   }
   .header__burger {
     display: flex;
+  }
+}
+@media (max-width: 350px) {
+  label.header__lab {
+    left: 122px;
+  }
+  .social__programs {
+    left: -14px;
   }
 }
 .newsletter__button, .newsletter, .overlay__content, .header__content-top, .address, .address__link {
@@ -922,6 +928,20 @@ label {
     padding: 25px 142px;
   }
 }
+@media (max-width: 350px) {
+  .information__attention-photo {
+    padding: 25px 100px;
+  }
+  .information__clock-photo {
+    padding: 25px 100px;
+  }
+  .information__planning-photo {
+    padding: 32px 100px;
+  }
+  .information__astronaut-photo {
+    padding: 25px 100px;
+  }
+}
 .occupation__title {
   color: #212121;
   text-align: center;
@@ -1220,8 +1240,14 @@ label {
 }
 @media (max-width: 480px) {
   .card__photo {
-    height: 264px;
-    width: 274px;
+    height: 315px;
+    width: 325px;
+  }
+}
+@media (max-width: 350px) {
+  .card__photo {
+    height: 220px;
+    width: 230px;
   }
 }
 .customers__title {
@@ -1286,7 +1312,7 @@ label {
 }
 @media (max-width: 480px) {
   .regular__photo-svg {
-    padding: 8px;
+    padding: 15px;
   }
 }
 .newsletter__button, .newsletter, .header__content-top, .address, .address__link, .overlay__content {
@@ -1532,7 +1558,7 @@ label {
 }
 @media (max-width: 480px) {
   .newsletter__form {
-    width: 310px;
+    width: 365px;
     height: 50px;
     margin-bottom: 10px;
   }
@@ -1544,6 +1570,11 @@ label {
     text-align: center;
   }
 }
+@media (max-width: 350px) {
+  .newsletter__form {
+    width: 264px;
+  }
+}
 @media (max-width: 768px) {
   .container {
     width: 740px;
@@ -1552,5 +1583,10 @@ label {
 @media (max-width: 480px) {
   .container {
     width: 450px;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    width: 320px;
   }
 }

@@ -239,7 +239,7 @@
 
 @media (max-width: 480px) {
     .newsletter__form {
-        width: 310px;
+        width: 365px;
         height: 50px;
         margin-bottom: 10px;
     }
@@ -249,5 +249,11 @@
         display: flex;
         gap: 60px;
         text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .newsletter__form {
+        width: 264px;
     }
 }
