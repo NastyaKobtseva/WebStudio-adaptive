@@ -305,7 +305,7 @@ label {
   }
   .social__programs {
     position: absolute;
-    top: 99%;
+    top: 96%;
     left: 0;
     width: 100%;
     background-color: white;
@@ -533,6 +533,9 @@ label {
   }
 }
 @media (max-width: 480px) {
+  .caption {
+    justify-content: center;
+  }
   .page__navigation {
     flex-wrap: wrap;
     gap: 10px;
@@ -558,8 +561,8 @@ label {
     margin: 0;
   }
   .photo1 {
-    width: 450px;
-    height: 294px;
+    width: 385px;
+    height: 229px;
   }
 }
 .newsletter__button, .newsletter, .header__content-top, .address, .address__link {
@@ -805,7 +808,7 @@ label {
 }
 @media (max-width: 480px) {
   .newsletter__form {
-    width: 440px;
+    width: 375px;
     height: 50px;
     margin-bottom: 10px;
   }

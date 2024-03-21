@@ -304,7 +304,7 @@ label {
   }
   .social__programs {
     position: absolute;
-    top: 99%;
+    top: 96%;
     left: 0;
     width: 100%;
     background-color: white;
@@ -910,16 +910,16 @@ label {
 }
 @media (max-width: 480px) {
   .information__attention-photo {
-    padding: 25px 190px;
+    padding: 25px 155px;
   }
   .information__clock-photo {
-    padding: 25px 190px;
+    padding: 25px 155px;
   }
   .information__planning-photo {
-    padding: 32px 190px;
+    padding: 32px 155px;
   }
   .information__astronaut-photo {
-    padding: 25px 190px;
+    padding: 25px 155px;
   }
 }
 .occupation__title {
@@ -1220,8 +1220,8 @@ label {
 }
 @media (max-width: 480px) {
   .card__photo {
-    height: 434px;
-    width: 444px;
+    height: 320px;
+    width: 330px;
   }
 }
 .customers__title {
@@ -1282,6 +1282,11 @@ label {
   .regular__photo-svg {
     width: 160px;
     height: 65px;
+  }
+}
+@media (max-width: 480px) {
+  .regular__photo-svg {
+    padding: 14px;
   }
 }
 .newsletter__button, .newsletter, .header__content-top, .address, .address__link, .overlay__content {
@@ -1527,7 +1532,7 @@ label {
 }
 @media (max-width: 480px) {
   .newsletter__form {
-    width: 440px;
+    width: 375px;
     height: 50px;
     margin-bottom: 10px;
   }

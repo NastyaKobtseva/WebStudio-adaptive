@@ -209,6 +209,9 @@
 }
 
 @media (max-width: 480px) {
+    .caption {
+        justify-content: center;
+    }
     .page__navigation {
         flex-wrap: wrap;
         gap: 10px;
@@ -234,7 +237,7 @@
         margin: 0;
     }
     .photo1 {
-        width: 450px;
-        height: 294px;
+        width: 385px;
+        height: 229px;
     }
 }
