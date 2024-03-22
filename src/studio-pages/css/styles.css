@@ -428,7 +428,7 @@ label {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
-    background-image: url("../image/chapter-one/Img.header.png, ../image/chapter-one/Img.header(2x).png");
+    background-image: url("../image/chapter-one/Img.header.png");
   }
 }
 .newsletter__button, .newsletter, .header__content-top, .address, .address__link, .overlay__content {
@@ -1306,7 +1306,6 @@ label {
     flex-wrap: wrap;
   }
   .regular__photo-svg {
-    width: 160px;
     height: 65px;
   }
 }
